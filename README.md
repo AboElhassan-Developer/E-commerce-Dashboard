@@ -16,6 +16,46 @@ It includes **Admin Dashboard** for CRUD operations and a **User Interface** for
 
 ---
 
+## 🖼 Screenshots
+
+### 🏠 Home Page
+![Home Page](./Screenshot/home.png)
+
+### 🏠 Home Page (Alternative View)
+![Home Page 1](./Screenshot/home1.png)
+
+### 🏠 Home Page (Extended View)
+![Home Page 2](./Screenshot/home2.png)
+
+### ❤️ Wishlist
+![Wishlist](./Screenshot/wishlist.png)
+
+### 👤 User Profile
+![Profile](./Screenshot/profile.png)
+
+### 📦 Profile Orders
+![Profile Orders](./Screenshot/profileOrders.png)
+
+### ⚙️ Account Settings
+![Account Settings](./Screenshot/accountSetting.png)
+
+### 🛠 Admin Dashboard
+![Admin Dashboard](./Screenshot/dashboardAdmin.png)
+
+### 👥 Manage Users
+![Manage Users](./Screenshot/manageUsers.png)
+
+### 📦 Manage Orders
+![Manage Orders](./Screenshot/manageOrders.png)
+
+### 🏷 Manage Categories
+![Manage Categories](./Screenshot/manageCategories.png)
+
+### 🛒 Manage Products
+![Manage Products](./Screenshot/manageProducts.png)
+
+---
+
 ## 🛠 Technologies Used
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Backend:** Node.js, Express.js
@@ -38,8 +78,3 @@ It includes **Admin Dashboard** for CRUD operations and a **User Interface** for
 5. Open your browser and visit:
    http://localhost:3000
 
----
-
-## 📸 Screenshots
-نسخ
-ت
