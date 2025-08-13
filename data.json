@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iphone 14",
+      "price": 2000,
+      "categoryId": "2",
+      "quantity": 5,
+      "description": "iphone 14 pm",
+      "image": "/img/1744686133358.jpg"
+    },
+    {
+      "id": 2,
+      "name": "nike T-shirt",
+      "price": 100,
+      "categoryId": "1",
+      "quantity": 5,
+      "description": "nike T-shirt",
+      "image": "/img/1744686193398.jpg"
+    },
+    {
+      "id": 3,
+      "name": "sad",
+      "price": 200,
+      "categoryId": "2",
+      "quantity": 2,
+      "description": "asdasd",
+      "image": "/img/1744691881682.jpg"
+    },
+    {
+      "id": 4,
+      "name": "electronics",
+      "price": 20000,
+      "categoryId": "2",
+      "quantity": 6,
+      "description": "it's technologia",
+      "image": "/img/1744745566152.png"
+    },
+    {
+      "id": 5,
+      "name": "Men's Fashion ",
+      "price": 70,
+      "categoryId": "1",
+      "quantity": 10,
+      "description": "Men's Fashion",
+      "image": "/img/Men's Fashion1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sony Headphones",
+      "price": 300,
+      "categoryId": "2",
+      "quantity": 7,
+      "description": "Sony WH-1000XM4 wireless headphones",
+      "image": "/img/Sony Headphones.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Wooden Dining Table",
+      "price": 800,
+      "categoryId": "5",
+      "quantity": 3,
+      "description": "Solid wood dining table with 6 chairs",
+      "image": "/img/Wooden Dining Table.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Casio Wrist Watch",
+      "price": 250,
+      "categoryId": "3",
+      "quantity": 15,
+      "description": "Casio analog wrist watch for women",
+      "image": "/img/Casio Wrist Watch.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Women's Jacket",
+      "price": 130,
+      "categoryId": "3",
+      "quantity": 10,
+      "description": "Warm winter jacket for women",
+      "image": "/img/Women_Jacket.jpg"
+    },
+    {
+      "id": 10,
+      "name": "HP Laptop",
+      "price": 1200,
+      "categoryId": "4",
+      "quantity": 10,
+      "description": "HP Pavilion 15 with Intel i7",
+      "image": "/img/hp_laptop.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Kitchen Blender",
+      "price": 90,
+      "categoryId": "5",
+      "quantity": 20,
+      "description": "Electric kitchen blender 500W",
+      "image": "/img/Kitchen Blender.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Leather Handbag",
+      "price": 180,
+      "categoryId": "3",
+      "quantity": 14,
+      "description": "Women's genuine leather handbag",
+      "image": "/img/Leather Handbag.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men's Fashions",
+      "image": "/img/1744673763964.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Electronics",
+      "image": "/img/1744673784514.png"
+    },
+    {
+      "id": 3,
+      "name": "Women's fashion",
+      "image": "/img/1744679516194.jpg"
+    }
+    ,
+    {
+      "id": 4,
+      "name": "Computers & Accessories",
+      "image": "/img/Dell XPS 13.jpg"
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Home & Kitchen",
+      "image": "/img/Office Desk.jpg"
+    }
+  ]
+}
