@@ -428,15 +428,54 @@ function updateWishlistCount() {
 
 // Show product modal
 function showProductModal(product) {
-    document.getElementById('modal-title').textContent = product.title;
-    document.getElementById('modal-description').textContent = product.description;
-    document.getElementById('modal-price').textContent = product.price;
-    document.getElementById('modal-rating').textContent = product.rating.rate;
-    document.getElementById('modal-image').src = product.image;
+  try {
+    const title = product.name || product.title || 'Product';
+    const description = product.description || 'No description available.';
+    const price = Number(product.price ?? 0).toFixed(2);
 
-    const productModal = new bootstrap.Modal(document.getElementById('productModal'));
-    productModal.show();
+    const rating =
+      (product.rating && (product.rating.rate ?? product.rating)) != null
+        ? (product.rating.rate ?? product.rating)
+        : 'N/A';
+
+    const imgSrc = product.image || 'images/placeholder.jpg';
+
+    const titleEl = document.getElementById('modal-title');
+    const descEl = document.getElementById('modal-description');
+    const priceEl = document.getElementById('modal-price');
+    const ratingEl = document.getElementById('modal-rating');
+    const imgEl = document.getElementById('modal-image');
+
+    if (!titleEl || !descEl || !priceEl || !ratingEl || !imgEl) {
+      console.error('Modal elements not found in DOM');
+      showToast('Cannot open details right now.');
+      return;
+    }
+
+    titleEl.textContent = title;
+    descEl.textContent = description;
+    priceEl.textContent = price;
+    ratingEl.textContent = rating;
+    imgEl.src = imgSrc;
+    imgEl.alt = title;
+    imgEl.onerror = () => { imgEl.src = 'images/placeholder.jpg'; };
+
+    const modalEl = document.getElementById('productModal');
+    if (!modalEl) {
+      console.error('Modal element #productModal is missing');
+      showToast('Details modal is missing on the page.');
+      return;
+    }
+
+    const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
+    modal.show();
+
+  } catch (err) {
+    console.error('showProductModal error:', err);
+    showToast('Error opening product details.');
+  }
 }
+
 
 // Example filtering function (depends on your product API structure)
 async function getProductsByCategory(category) {
